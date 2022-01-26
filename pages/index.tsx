@@ -61,6 +61,7 @@ function App() {
           <a
             href="https://twitter.com/shannonajclarke"
             target="_blank"
+            rel="noreferrer"
             className="bg-blue-100 rounded-lg p-1 text-blue-800 hover:bg-blue-200"
           >
             Shannon Clarke
@@ -69,6 +70,7 @@ function App() {
           <a
             href="https://norustech.com/"
             target="_blank"
+            rel="noreferrer"
             className="bg-blue-100 rounded-lg p-1 text-blue-800 hover:bg-blue-200"
           >
             Norus House
@@ -91,6 +93,7 @@ function App() {
           <a
             href="https://teamup.com/ks7513stku1x8qt7oq"
             target="_blank"
+            rel="noreferrer"
             className="bg-blue-100 rounded-lg p-1 text-blue-800 hover:bg-blue-400 hover:text-white"
           >
             View full MHW calendar
@@ -135,6 +138,7 @@ function App() {
                   <a
                     href={event.link}
                     target="_blank"
+                    rel="noreferrer"
                     className="flex-1 text-sm p-2 bg-gray-50 hover:bg-gray-200 font-medium text-gray-500"
                   >
                     Learn More
