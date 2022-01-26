@@ -6,14 +6,15 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import locations from "./data/locations";
 
 type ILocation = {
+  id?: string;
   name: string;
   location: string;
-  description: string;
+  description: string | null;
   organizer: string;
   startTime: string;
   endTime: string;
-  latitude: number;
-  longitude: number;
+  latitude: number | null;
+  longitude: number | null;
   link: string;
 };
 

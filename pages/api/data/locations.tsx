@@ -249,6 +249,9 @@ const locations = [
     organizer: "",
     startTime: "2022-01-26T08:45:00-05:00",
     endTime: "2022-01-26T10:30:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "gm Free Hacker Coffee at Puroast",
@@ -258,6 +261,9 @@ const locations = [
     organizer: "Shrimp Society",
     startTime: "2022-01-26T09:00:00-05:00",
     endTime: "2022-01-26T12:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Work Out / Yoga @ The Fit House",
@@ -267,6 +273,9 @@ const locations = [
     organizer: "Zacky Rubin",
     startTime: "2022-01-26T09:15:00-05:00",
     endTime: "2022-01-26T11:15:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Cafecito Breakfast @ HF0 Hacker Village",
@@ -276,6 +285,9 @@ const locations = [
     organizer: "HF0",
     startTime: "2022-01-26T10:00:00-05:00",
     endTime: "2022-01-26T11:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Crypto Coworking: Marketing Metaverse, NFT, Web3 projects with Otis",
@@ -285,6 +297,9 @@ const locations = [
     organizer: "",
     startTime: "2022-01-26T11:00:00-05:00",
     endTime: "2022-01-26T15:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Developer Health, Movement & Meditation",
@@ -294,6 +309,9 @@ const locations = [
     organizer: "Michelle Bakels",
     startTime: "2022-01-26T15:00:00-05:00",
     endTime: "2022-01-26T15:30:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Atomic & SoftBank Present: Meet our Lead Engineers (dinner + panel discussion)",
@@ -303,6 +321,9 @@ const locations = [
     organizer: "",
     startTime: "2022-01-26T17:00:00-05:00",
     endTime: "2022-01-26T19:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Ramp Backyard BBQ [RSVP REQUIRED]",
@@ -312,6 +333,9 @@ const locations = [
     organizer: "",
     startTime: "2022-01-26T18:00:00-05:00",
     endTime: "2022-01-26T20:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Miami Tech Happy Hour",
@@ -321,6 +345,9 @@ const locations = [
     organizer: "Chris Adamo",
     startTime: "2022-01-26T18:30:00-05:00",
     endTime: "2022-01-26T21:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: 'Bitcoin Beyond Financial Transactions with Anthony Pompliano aka "Pomp" and Nic Carter',
@@ -330,6 +357,9 @@ const locations = [
     organizer: "Alina Perez",
     startTime: "2022-01-26T19:00:00-05:00",
     endTime: "2022-01-26T21:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Breakfast with Atomic VC's Engineering and Business Ops Team",
@@ -339,6 +369,9 @@ const locations = [
     organizer: "",
     startTime: "2022-01-27T08:45:00-05:00",
     endTime: "2022-01-27T10:30:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Work Out / Yoga @ The Fit House",
@@ -348,6 +381,9 @@ const locations = [
     organizer: "Zacky Rubin",
     startTime: "2022-01-27T09:15:00-05:00",
     endTime: "2022-01-27T11:15:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Cafecito Breakfast @ HF0 Hacker Village",
@@ -357,6 +393,9 @@ const locations = [
     organizer: "HF0",
     startTime: "2022-01-27T10:00:00-05:00",
     endTime: "2022-01-27T11:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Openstore Yoga",
@@ -366,6 +405,9 @@ const locations = [
     organizer: "Openstore",
     startTime: "2022-01-27T10:15:00-05:00",
     endTime: "2022-01-27T11:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Wakesurf + Pool Party",
@@ -375,6 +417,9 @@ const locations = [
     organizer: "Thresholds House",
     startTime: "2022-01-27T11:00:00-05:00",
     endTime: "2022-01-27T16:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Crypto Coworking",
@@ -383,6 +428,9 @@ const locations = [
     organizer: "",
     startTime: "2022-01-27T11:00:00-05:00",
     endTime: "2022-01-27T15:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Truework's Lunch + Happy Hour",
@@ -392,6 +440,9 @@ const locations = [
     organizer: "Truework",
     startTime: "2022-01-27T14:30:00-05:00",
     endTime: "2022-01-27T17:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "APIs and IPAs with Secret Guest by Anheuser-Busch",
@@ -401,6 +452,9 @@ const locations = [
     organizer: "Anheuser-Busch",
     startTime: "2022-01-27T15:00:00-05:00",
     endTime: "2022-01-27T17:30:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Augmented Intelligence | Co-creating with AI",
@@ -410,6 +464,9 @@ const locations = [
     organizer: "bundleIQ",
     startTime: "2022-01-27T15:00:00-05:00",
     endTime: "2022-01-27T15:30:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Hack week happy hour with flamingo Capital, miami angels and Pareto",
@@ -419,6 +476,9 @@ const locations = [
     organizer: "Chris Adamo",
     startTime: "2022-01-27T16:00:00-05:00",
     endTime: "2022-01-27T18:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Launch Your Own NFT Collection on Polygon",
@@ -428,6 +488,9 @@ const locations = [
     organizer: "Siraj Raval",
     startTime: "2022-01-27T17:00:00-05:00",
     endTime: "2022-01-27T19:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Womxn in Blockchain Dinner",
@@ -437,6 +500,9 @@ const locations = [
     organizer: "ApeWorX",
     startTime: "2022-01-27T18:00:00-05:00",
     endTime: "2022-01-27T20:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Usage AI Super Smash Bros Tournament",
@@ -446,6 +512,9 @@ const locations = [
     organizer: "Kane",
     startTime: "2022-01-27T18:00:00-05:00",
     endTime: "2022-01-27T23:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Help Wanted Web3 Kick Back",
@@ -455,6 +524,9 @@ const locations = [
     organizer: "Sonr.io & Pixels.online",
     startTime: "2022-01-27T19:00:00-05:00",
     endTime: "2022-01-27T21:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "TrippyDAO: The Future of DAOs & NFTs",
@@ -464,6 +536,9 @@ const locations = [
     organizer: "Shrimp Society",
     startTime: "2022-01-27T19:00:00-05:00",
     endTime: "2022-01-27T22:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Midnight Breakfast by POQ",
@@ -473,6 +548,9 @@ const locations = [
     organizer: "POQ",
     startTime: "2022-01-27T23:00:00-05:00",
     endTime: "2022-01-28T02:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Work Out / Yoga @ The Fit House",
@@ -482,6 +560,9 @@ const locations = [
     organizer: "Zacky Rubin",
     startTime: "2022-01-28T09:15:00-05:00",
     endTime: "2022-01-28T11:15:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Cafecito Breakfast @ HF0 Hacker Village",
@@ -491,6 +572,9 @@ const locations = [
     organizer: "HF0",
     startTime: "2022-01-28T10:00:00-05:00",
     endTime: "2022-01-28T11:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Crypto Coworking",
@@ -499,6 +583,9 @@ const locations = [
     organizer: "",
     startTime: "2022-01-28T11:00:00-05:00",
     endTime: "2022-01-28T15:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Rapid Pitch Practice",
@@ -507,6 +594,9 @@ const locations = [
     organizer: "",
     startTime: "2022-01-28T11:00:00-05:00",
     endTime: "2022-01-28T13:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Arena Fit House Pitch Day",
@@ -516,6 +606,9 @@ const locations = [
     organizer: "Carolyn Henao",
     startTime: "2022-01-28T11:00:00-05:00",
     endTime: "2022-01-28T13:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Closing Ceremony Venue Opens",
@@ -524,6 +617,9 @@ const locations = [
     organizer: "",
     startTime: "2022-01-28T13:45:00-05:00",
     endTime: "2022-01-28T14:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Closing Expo - Science Fair",
@@ -532,6 +628,9 @@ const locations = [
     organizer: "",
     startTime: "2022-01-28T14:00:00-05:00",
     endTime: "2022-01-28T16:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Finalist Judging & Closing Ceremony",
@@ -540,6 +639,9 @@ const locations = [
     organizer: "",
     startTime: "2022-01-28T16:00:00-05:00",
     endTime: "2022-01-28T18:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "",
@@ -549,6 +651,9 @@ const locations = [
     organizer: "Carolyn Henao",
     startTime: "2022-01-28T19:00:00-05:00",
     endTime: "2022-01-28T21:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Arena Fit House Pool Party",
@@ -558,6 +663,9 @@ const locations = [
     organizer: "Zacky Rubin",
     startTime: "2022-01-28T19:00:00-05:00",
     endTime: "2022-01-28T21:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
   {
     name: "Official AfterParty at the Wharf [RSVP REQUIRED]",
@@ -567,6 +675,9 @@ const locations = [
     organizer: "",
     startTime: "2022-01-29T14:00:00-05:00",
     endTime: "2022-01-29T16:00:00-05:00",
+    latitude: null,
+    longitude: null,
+    link: "",
   },
 ];
 
