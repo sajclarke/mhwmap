@@ -21,9 +21,6 @@ function App() {
   const [activeMap, setActiveMap] = React.useState<any>();
   const [filter, setFilter] = React.useState<any>("");
 
-  const todayDate = format(new Date(), "yyyy/mm/dd");
-  console.log(todayDate);
-
   const handleMapLoading = (data: any) => {
     setActiveMap(data);
   };
