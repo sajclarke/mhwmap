@@ -73,20 +73,6 @@ function MapboxMap({
   React.useEffect(() => {
     if (map && events) {
       map.on("load", function () {
-        // addDataLayer(map, data);
-        console.log("something goes here", events);
-
-        // console.log(
-        //   "output",
-        //   events.map((point: any) => ({
-        //     name: point.title,
-        //     location: point.location,
-        //     description: point.notes,
-        //     organizer: point.who,
-        //     startTime: point.start_dt,
-        //     endTime: point.end_dt,
-        //   }))
-        // );
         events.map((point: any) => {
           if (!point.latitude || !point.longitude) {
             return false;
