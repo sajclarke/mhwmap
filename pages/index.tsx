@@ -124,9 +124,9 @@ function App() {
                   Organized by {event.organizer}
                 </p>
               </div>
-              <div className="flex text-center">
+              <div className="flex text-center border border-gray-200 divide-x divide-gray-200">
                 <button
-                  className="flex-1 text-sm p-2 border border-gray-300 bg-gray-50 hover:bg-gray-200 font-medium text-gray-500"
+                  className="flex-1 text-sm p-2 bg-gray-50 hover:bg-gray-200 font-medium text-gray-500"
                   onClick={() => handleEventClick(event)}
                 >
                   View on Map
@@ -135,7 +135,7 @@ function App() {
                   <a
                     href={event.link}
                     target="_blank"
-                    className="flex-1 text-sm p-2 border border-gray-300 bg-gray-50 hover:bg-gray-200 font-medium text-gray-500"
+                    className="flex-1 text-sm p-2 bg-gray-50 hover:bg-gray-200 font-medium text-gray-500"
                   >
                     Learn More
                   </a>
