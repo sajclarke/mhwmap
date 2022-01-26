@@ -38,7 +38,11 @@ function App() {
 
   const handleEventClick = (event: any) => {
     if (event.latitude && event.longitude) {
-      activeMap.jumpTo({ center: [event.latitude, event.longitude] });
+      activeMap.flyTo({ center: [event.latitude, event.longitude] });
+    } else {
+      alert(
+        "Sorry but the event organizer has not shared the location for this event. Please try to RSVP for more info"
+      );
     }
   };
 
@@ -52,6 +56,24 @@ function App() {
   return (
     <div className="w-full h-full h-screen bg-gray-100 flex flex-col md:flex-row">
       <div className="w-full md:w-1/4 bg-gray-50 p-2 overflow-auto">
+        <p className="text-xs text-center">
+          Built by{" "}
+          <a
+            href="https://twitter.com/shannonajclarke"
+            target="_blank"
+            className="bg-blue-100 rounded-lg p-1 text-blue-800 hover:bg-blue-200"
+          >
+            Shannon Clarke
+          </a>{" "}
+          at{" "}
+          <a
+            href="https://norustech.com/"
+            target="_blank"
+            className="bg-blue-100 rounded-lg p-1 text-blue-800 hover:bg-blue-200"
+          >
+            Norus House
+          </a>
+        </p>
         <p className="text-md mx-3 md:mx-6 font-semibold text-gray-500 text-center py-3">
           Unofficial List of Events for Miami Hack Week
         </p>
@@ -65,6 +87,15 @@ function App() {
           placeholder="filter by name of event"
           onChange={handleFilterChange}
         />
+        <p className="text-xs text-center py-2">
+          <a
+            href="https://teamup.com/ks7513stku1x8qt7oq"
+            target="_blank"
+            className="bg-blue-100 rounded-lg p-1 text-blue-800 hover:bg-blue-400 hover:text-white"
+          >
+            View full MHW calendar
+          </a>
+        </p>
         {events
           ?.filter(
             (event: any) =>
@@ -78,17 +109,38 @@ function App() {
           ?.map((event: any) => (
             <div
               key={event.name + "-" + event.startTime}
-              onClick={() => handleEventClick(event)}
-              className="bg-white shadow-lg rounded border border-gray-200 my-3 p-2"
+              className="bg-white shadow-lg rounded border border-gray-200 my-3"
             >
-              <p className="text-xs text-gray-400">
-                {format(new Date(event.startTime), "do LLL yyyy hh:mm aa")} -{" "}
-                {format(new Date(event.endTime), "hh:mm aa")}
-              </p>
-              <h3 className="text-md font-semibold text-blue-400">
-                {event.name}
-              </h3>
-              <p className="text-sm">{event.location}</p>
+              <div className="p-2">
+                <p className="text-xs text-gray-400">
+                  {format(new Date(event.startTime), "do LLL yyyy hh:mm aa")} -{" "}
+                  {format(new Date(event.endTime), "hh:mm aa")}
+                </p>
+                <h3 className="text-base font-semibold text-blue-400">
+                  {event.name}
+                </h3>
+                <p className="text-sm">{event.location}</p>
+                <p className="text-xs text-gray-400">
+                  Organized by {event.organizer}
+                </p>
+              </div>
+              <div className="flex text-center">
+                <button
+                  className="flex-1 text-sm p-2 border border-gray-300 bg-gray-50 hover:bg-gray-200 font-medium text-gray-500"
+                  onClick={() => handleEventClick(event)}
+                >
+                  View on Map
+                </button>
+                {event.link.length > 0 && (
+                  <a
+                    href={event.link}
+                    target="_blank"
+                    className="flex-1 text-sm p-2 border border-gray-300 bg-gray-50 hover:bg-gray-200 font-medium text-gray-500"
+                  >
+                    Learn More
+                  </a>
+                )}
+              </div>
             </div>
           ))}
 
