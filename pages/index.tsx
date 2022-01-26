@@ -56,6 +56,9 @@ function App() {
         <p className="text-md mx-3 md:mx-6 font-semibold text-gray-500 text-center py-3">
           Unofficial List of Events for Miami Hack Week
         </p>
+        <p className="text-xs text-center">
+          (showing events for {format(new Date(), "do LLL yyyy")})
+        </p>
         <input
           type="text"
           className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
@@ -83,7 +86,7 @@ function App() {
                 {format(new Date(event.startTime), "do LLL yyyy hh:mm aa")} -{" "}
                 {format(new Date(event.endTime), "hh:mm aa")}
               </p>
-              <h3 className="text-md font-semibold text-gray-600">
+              <h3 className="text-md font-semibold text-blue-400">
                 {event.name}
               </h3>
               <p className="text-sm">{event.location}</p>
