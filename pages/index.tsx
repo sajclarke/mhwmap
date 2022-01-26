@@ -37,7 +37,9 @@ function App() {
   };
 
   const handleEventClick = (event: any) => {
-    activeMap.jumpTo({ center: [event.latitude, event.longitude] });
+    if (event.latitude && event.longitude) {
+      activeMap.jumpTo({ center: [event.latitude, event.longitude] });
+    }
   };
 
   if (error) return "An error has occurred.";
@@ -72,7 +74,7 @@ function App() {
           ?.filter((event: any) =>
             event.name.toLowerCase().includes(filter?.toLowerCase())
           )
-          ?.filter((event: any) => event.latitude && event.longitude)
+          // ?.filter((event: any) => event.latitude && event.longitude)
           ?.map((event: any) => (
             <div
               key={event.name + "-" + event.startTime}
