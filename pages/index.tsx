@@ -25,19 +25,10 @@ function App() {
   console.log(todayDate);
 
   const handleMapLoading = (data: any) => {
-    // setLoading(false);
-    // console.log(data);
     setActiveMap(data);
-    data.flyTo({
-      center: [-80.20160645767147, 25.799290216030386],
-    });
   };
 
   const { data: events, error } = useSWR("/api/locations", fetcher);
-  // console.log(
-  //   "events",
-  //   events.map((event: any) => console.log(event))
-  // );
 
   const handleFilterChange = (e: any) => {
     const { value } = e.target;
@@ -49,7 +40,6 @@ function App() {
   };
 
   const handleEventClick = (event: any) => {
-    // console.log("click event", event);
     activeMap.jumpTo({ center: [event.latitude, event.longitude] });
   };
 
@@ -121,24 +111,5 @@ function App() {
     </div>
   );
 }
-
-// export async function getServerSideProps() {
-//   // Fetch data from external API
-//   const res = await fetch(
-//     `https://api.teamup.com/ks7513stku1x8qt7oq/events?startDate=2022-01-24&endDate=2022-02-01`,
-//     {
-//       headers: {
-//         "Content-Type": "application/json",
-//         "Teamup-Token":
-//           "a4dc88fc288121a44d427ba6b1b544d7c1b5317724cf441aad9b59eaa80bc4c1",
-//       },
-//     }
-//   );
-//   // console.log("response", await res.json());
-//   const data = await res.json();
-//   // const data: any = [];
-//   // Pass data to the page via props
-//   return { props: { data } };
-// }
 
 export default App;
