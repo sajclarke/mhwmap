@@ -425,7 +425,7 @@ const locations = [
     location: "TBA",
     description:
       "Come join us at the Openstore house Thursday January 27th 10:15-11am to energize your day with a Yoga session!",
-    organizer: "",
+    organizer: "Openstore",
     startTime: "2022-01-27T10:15:00-05:00",
     endTime: "2022-01-27T11:00:00-05:00",
     latitude: null,
