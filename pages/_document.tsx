@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import { NextSeo } from "next-seo";
 
 import { GA_TRACKING_ID } from "../utils/gtag";
 
@@ -23,6 +24,11 @@ export default class MyDocument extends Document {
               });
           `,
             }}
+          />
+          <title>UnOfficial Map for Miami Hack Week January 2022</title>
+          <NextSeo
+            title="UnOfficial Map for Miami Hack Week January 2022"
+            description="Miami Hack Week Map app by NorusTech"
           />
         </Head>
         <body>
